@@ -8,7 +8,20 @@ var thisName :String = "Perth is OP"
 
 
 var thisString :String = "String change"
+//String Change
 
 let multiplier = 3
 let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
-// message is "3 times 2.5 is 7.5"
+//String Interpolation
+
+var word :String = "Hello"
+print("the number of characters in \(word) is \(word.characters.count)")
+//Counting Characters
+
+let quote = "How are you today?"
+let sameQuote = "How are you today?"
+if quote == sameQuote
+{
+    print("These two strings are equal")
+}
+//Comparing Strings
