@@ -25,3 +25,7 @@ if quote == sameQuote
     print("These two strings are equal")
 }
 //Comparing Strings
+
+var age = 23453
+var speed = 643.304589
+var rate = age/Int (speed)
