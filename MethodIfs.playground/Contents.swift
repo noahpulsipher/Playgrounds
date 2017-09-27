@@ -14,5 +14,42 @@ public func aBitLessSimple(name: String) -> Void
     print(answer)
 }
 aBitLessSimple(name: "slim shady")
-let words = "MarshalL Mathers"
+let words = "Marshall Mathers"
 aBitLessSimple(name: words)
+
+public func namingExample(outerName innerName: String) -> Void
+{
+    print("The inner name is: \(innerName)")
+}
+namingExample(outerName: "Noah")
+
+public func counting() -> Int
+{
+    return (7 * 665)
+}
+print("I am not \(counting()) years old")
+
+if(counting() < 10)
+{
+    print("math works in swift too")
+}
+else
+{
+    print("not very likely right now")
+}
+var test = 0
+
+while (test < counting())
+{
+    print("hahaha")
+    test += 1
+}
+
+print("yay!")
+
+
+
+
+
+
+
