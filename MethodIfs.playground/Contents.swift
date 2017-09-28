@@ -25,11 +25,11 @@ namingExample(outerName: "Noah")
 
 public func counting() -> Int
 {
-    return (7 * 665)
+    return (2)
 }
 print("I am not \(counting()) years old")
 
-if(counting() < 10)
+if (counting() < 10)
 {
     print("math works in swift too")
 }
@@ -46,10 +46,5 @@ while (test < counting())
 }
 
 print("yay!")
-
-
-
-
-
 
 
