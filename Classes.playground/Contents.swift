@@ -62,7 +62,7 @@ var thirdSample = OtherClass(favoriteNumber: 98765, favoriteWord: "stuff")
 secondClass.changeInternalState()
 thirdSample.changeInternalState()
 thirdSample.changeInternalState()
-print(thirdSample.getFavoriteWord()
+print(thirdSample.getFavoriteWord())
 
 
 
