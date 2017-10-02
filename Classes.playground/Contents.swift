@@ -12,5 +12,46 @@ public class SimpleClass
     {
         name = "My name is ...."
     }
-        
+    
+    public func getName() -> String
+    {
+        return name
+    }
 }
+var sample = SimpleClass()
+print(sample.getName())
+
+public class OtherClass
+{
+    private var favoriteNumber :Int
+    private var favoriteWord :String
+    
+    public init()
+    {
+        favoriteNumber = Int()
+        favoriteWord = String()
+    }
+    
+    public init(favoriteNumber: Int, favoriteWord: String)
+    {
+        self.favoriteNumber = favoriteNumber
+        self.favoriteWord = favoriteWord
+    }
+    
+    public func changeInternalState() -> Void
+    {
+        self.favoriteNumber *= 12345
+        self.favoriteWord += " and more and more"
+    }
+}
+//Swift version
+var secondClass = OtherClass()
+//Java would be OtherClass sample = new OtherClass();
+//it is also not = OtherClass.init()
+var thirdSample = OtherClass(favoriteNumber: 98765, favoriteWord: "stuff")
+secondClass.changeInternalState()
+thirdSample.changeInternalState()
+thirdSample.changeInternalState()
+
+
+
