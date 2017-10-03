@@ -29,3 +29,8 @@ if quote == sameQuote
 var age = 23453
 var speed = 643.304589
 var rate = age/Int (speed)
+
+func addSubview(
+
+let rect = CGRect(x: 10, y: 10, width: 100)
+let myView = UIView(frame: rect)
